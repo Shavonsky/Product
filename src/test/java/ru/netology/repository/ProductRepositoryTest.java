@@ -25,14 +25,14 @@ class ProductRepositoryTest {
         assertArrayEquals(expected, actual);
     }
 
-    @Test
-    public void shouldRemoveBySmartphoneID() {
-        repository.save(firstSmartphone);
-        repository.save(secondSmartphone);
-        Product[] expected = new Product[]{secondSmartphone};
-        repository.removeById(3);
-        Product[] actual = repository.findAll();
-        assertArrayEquals(expected, actual);
-    }
+//    @Test
+//    public void shouldRemoveBySmartphoneID() {
+//        repository.save(firstSmartphone);
+//        repository.save(secondSmartphone);
+//        Product[] expected = new Product[]{secondSmartphone};
+//        repository.removeById(3);
+//        Product[] actual = repository.findAll();
+//        assertArrayEquals(expected, actual);
+//    }
 
 }

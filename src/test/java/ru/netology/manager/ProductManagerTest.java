@@ -66,10 +66,10 @@ class ProductManagerTest {
     }
 
     @Test
-    void searchBySmartphoneManufacturer (){
+    void searchBySmartphoneManufacturer(){
         setUp();
-        Product[] expected = new Product[]{secondSmartphone};
-        Product[] actual = manager.searchBy("Iphone");
+        Product[] expected = new Product[]{firstSmartphone};
+        Product[] actual = manager.searchBy("Sumsung");
         assertArrayEquals(expected,actual);
     }
 
