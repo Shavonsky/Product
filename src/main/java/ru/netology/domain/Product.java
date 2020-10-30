@@ -22,11 +22,5 @@ public class Product {
         return id;
     }
 
-    public boolean matches(Product product, String search) {
-        if (product.getTitle().equalsIgnoreCase(search)) {
-            return true;
-        }
-        return false;
-    }
 
 }
