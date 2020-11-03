@@ -27,5 +27,4 @@ class ProductRepositoryTest {
         Product[] actual = repository.findAll();
         assertArrayEquals(expected, actual);
     }
-
 }
